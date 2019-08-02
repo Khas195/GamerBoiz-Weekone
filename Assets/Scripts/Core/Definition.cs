@@ -18,4 +18,9 @@ public class Definition
     {
         Debug.Log ("Initialize erros: " + message);
     }
+
+    public static void CameraDebug(string message)
+    {
+        Debug.Log("Camera Log: " + message);
+    }
 }

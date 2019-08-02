@@ -8,7 +8,9 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     Transform host;
     [SerializeField]
-    List<Transform> targetsFollow;
+    List<Transform> encapsolatedTarget;
+    [SerializeField]
+    Transform character;
 
     [SerializeField]
     [Tooltip("Each frame the camera move x percentage closer to the target")]
@@ -17,19 +19,37 @@ public class CameraFollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        encapsolatedTarget.Add(character);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        var targetPos = GetCenterPosition(targetsFollow); 
+        var targetPos = GetCenterPosition(encapsolatedTarget); 
 
         var hostPos = host.position;
 
-        hostPos.x = this.CalculateAsymptoticAverage(hostPos.x, targetPos.x, followPercentage);
-        hostPos.y = this.CalculateAsymptoticAverage(hostPos.y, targetPos.y, followPercentage);
+        hostPos.x = Ultilities.CalculateAsymptoticAverage(hostPos.x, targetPos.x, followPercentage);
+        hostPos.y = Ultilities.CalculateAsymptoticAverage(hostPos.y, targetPos.y, followPercentage);
         host.transform.position = hostPos;
+    }
+
+    public void SetFollowPercentage(float value)
+    {
+        followPercentage = value;
+    }
+
+    public void Clear(bool clearPlayer)
+    {
+        encapsolatedTarget.Clear();
+        if (clearPlayer == false) {
+            encapsolatedTarget.Add(character);
+        }
+    }
+
+    public void AddEncapsolateObject(Transform obj)
+    {
+        this.encapsolatedTarget.Add(obj);
     }
 
     private Vector3 GetCenterPosition(List<Transform> listOfTargets)
@@ -42,9 +62,4 @@ public class CameraFollow : MonoBehaviour
         return bounds.center;
     }
 
-    public float CalculateAsymptoticAverage( float value, float target, float percentage) {
-        var result = 0.0f;
-        result = (1 - percentage) * value + percentage * target;
-        return result;
-    }
 }
