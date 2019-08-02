@@ -47,6 +47,11 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
+    public float GetFollowPercentage()
+    {
+        return followPercentage;
+    }
+
     public void AddEncapsolateObject(Transform obj)
     {
         this.encapsolatedTarget.Add(obj);

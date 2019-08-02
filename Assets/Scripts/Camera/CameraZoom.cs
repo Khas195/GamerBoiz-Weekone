@@ -49,6 +49,11 @@ public class CameraZoom : MonoBehaviour
         encapsulatedTargets.Add(obj);
     }
 
+    public float GetFollowPercentage()
+    {
+        return followPercentage;
+    }
+
     float GetGreatestDistance(List<Transform> encapsulatedTargets)
     {
         if (encapsulatedTargets.Count <= 1) {
@@ -62,5 +67,10 @@ public class CameraZoom : MonoBehaviour
         var result  = bounds.size.x < bounds.size.y ? bounds.size.y : bounds.size.x;
         Definition.CameraDebug("Greatest distance between focus objects: " + result);
         return result;
+    }
+
+    public void SetFollowPercentage(float zoomFollowPercentage)
+    {
+        followPercentage = zoomFollowPercentage;
     }
 }

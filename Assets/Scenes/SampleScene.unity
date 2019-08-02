@@ -610,6 +610,8 @@ MonoBehaviour:
   cameraFollow: {fileID: 1009248463}
   cameraZoom: {fileID: 1582661475}
   viewTime: 5
+  zoomFollowPercentage: 0.03
+  focusCenterPercentage: 0.005
 --- !u!114 &1582661475 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
