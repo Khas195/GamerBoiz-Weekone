@@ -15,23 +15,24 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     [Tooltip("Each frame the camera move x percentage closer to the target")]
     float followPercentage = 0.02f;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         encapsolatedTarget.Add(character);
+
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        var targetPos = GetCenterPosition(encapsolatedTarget); 
+        var targetPos = GetCenterPosition(encapsolatedTarget);
 
         var hostPos = host.position;
-
-        hostPos.x = Ultilities.CalculateAsymptoticAverage(hostPos.x, targetPos.x, followPercentage);
-        hostPos.y = Ultilities.CalculateAsymptoticAverage(hostPos.y, targetPos.y, followPercentage);
+        hostPos.x = Mathf.Lerp(hostPos.x, targetPos.x, followPercentage);
+        hostPos.y = Mathf.Lerp(hostPos.y, targetPos.y, followPercentage);
         host.transform.position = hostPos;
+
+
     }
 
     public void SetFollowPercentage(float value)
@@ -42,7 +43,8 @@ public class CameraFollow : MonoBehaviour
     public void Clear(bool clearPlayer)
     {
         encapsolatedTarget.Clear();
-        if (clearPlayer == false) {
+        if (clearPlayer == false)
+        {
             encapsolatedTarget.Add(character);
         }
     }
@@ -64,6 +66,7 @@ public class CameraFollow : MonoBehaviour
         {
             bounds.Encapsulate(target.position);
         }
+        Definition.CameraDebug("Camera Center position: " + bounds.center);
         return bounds.center;
     }
 

@@ -1002,6 +1002,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraEntity
       objectReference: {fileID: 0}
+    - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: targetsFollow.Array.data[0]
+      value: 
+      objectReference: {fileID: 1072849654}
+    - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1072849654}
+    - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: followPercentage
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: maxDistance
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: encapsulatedTargets.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: encapsulatedTargets.Array.data[0]
+      value: 
+      objectReference: {fileID: 1072849654}
+    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1072849654}
+    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
+        type: 3}
+      propertyPath: followPercentage
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 8350216073601095923, guid: 5b622c27d9b98174d9f8134371c29fcf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1056,41 +1096,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
-        type: 3}
-      propertyPath: targetsFollow.Array.data[0]
-      value: 
-      objectReference: {fileID: 1072849654}
-    - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
-        type: 3}
-      propertyPath: character
-      value: 
-      objectReference: {fileID: 1072849654}
-    - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
-        type: 3}
-      propertyPath: followPercentage
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
-        type: 3}
-      propertyPath: encapsulatedTargets.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
-        type: 3}
-      propertyPath: encapsulatedTargets.Array.data[0]
-      value: 
-      objectReference: {fileID: 1072849654}
-    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
-        type: 3}
-      propertyPath: character
-      value: 
-      objectReference: {fileID: 1072849654}
-    - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
-        type: 3}
-      propertyPath: followPercentage
-      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b622c27d9b98174d9f8134371c29fcf, type: 3}
@@ -1170,6 +1175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329625849197526273, guid: f8391e4c124d7664fb74e5123505d141,
+        type: 3}
+      propertyPath: timeUntilMaxSpeed
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8391e4c124d7664fb74e5123505d141, type: 3}

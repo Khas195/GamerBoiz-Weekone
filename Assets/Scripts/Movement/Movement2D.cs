@@ -41,6 +41,9 @@ public class Movement2D : IMovement
         vel.x = side * currentSpeed * Time.deltaTime;
         body2D.MovePosition(body2D.transform.position + vel );
     }
+    public float GetCurrentSpeed() {
+        return currentSpeed;
+    }
     public override void SignalJump()
     {
         return;

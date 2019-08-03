@@ -27,13 +27,12 @@ public class CameraZoom : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         var greatestDistance = GetGreatestDistance(encapsulatedTargets);
         var clampedZoomValue = Mathf.Clamp(greatestDistance, minZoom, maxZoom);
         Definition.CameraDebug("Clamped Zoom size : " + clampedZoomValue);
-        host.orthographicSize = Ultilities.CalculateAsymptoticAverage(host.orthographicSize, clampedZoomValue, followPercentage);
-
+        host.orthographicSize = Mathf.Lerp(host.orthographicSize, clampedZoomValue, followPercentage);
     }
 
     public void Clear(bool clearPlayer)
