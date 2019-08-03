@@ -1020,7 +1020,7 @@ PrefabInstance:
     - target: {fileID: 7706793888291645062, guid: 5b622c27d9b98174d9f8134371c29fcf,
         type: 3}
       propertyPath: maxDistance
-      value: 0.4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 327568208833014999, guid: 5b622c27d9b98174d9f8134371c29fcf,
         type: 3}
@@ -1179,7 +1179,12 @@ PrefabInstance:
     - target: {fileID: 2329625849197526273, guid: f8391e4c124d7664fb74e5123505d141,
         type: 3}
       propertyPath: timeUntilMaxSpeed
-      value: 0.4
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329625849197526273, guid: f8391e4c124d7664fb74e5123505d141,
+        type: 3}
+      propertyPath: smoothAcceleration
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8391e4c124d7664fb74e5123505d141, type: 3}

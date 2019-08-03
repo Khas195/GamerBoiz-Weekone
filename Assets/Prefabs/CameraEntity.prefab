@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   host: {fileID: 8350216074535419027}
-  encapsulatedTargets:
-  - {fileID: 0}
+  encapsulatedTargets: []
+  character: {fileID: 0}
   minZoom: 6
   maxZoom: 20
   followPercentage: 0.02
@@ -271,6 +271,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   host: {fileID: 8350216074535418988}
-  targetsFollow:
-  - {fileID: 0}
-  followPercentage: 0.07
+  encapsolatedTarget: []
+  character: {fileID: 0}
+  followPercentage: 0.05
