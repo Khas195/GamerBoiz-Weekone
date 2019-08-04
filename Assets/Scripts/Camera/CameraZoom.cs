@@ -43,6 +43,16 @@ public class CameraZoom : MonoBehaviour
         }
     }
 
+    public float GetMaxZoom()
+    {
+        return maxZoom;
+    }
+
+    public void SetMaxZoom(float newMaxZoom)
+    {
+        this.maxZoom = newMaxZoom;
+    }
+
     public void AddEncapsolateObject(Transform obj)
     {
         encapsulatedTargets.Add(obj);
