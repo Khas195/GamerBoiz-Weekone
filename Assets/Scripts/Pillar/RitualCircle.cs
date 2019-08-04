@@ -6,11 +6,14 @@ using UnityEngine.Events;
 public class RitualCircle : MonoBehaviour
 {
     [SerializeField]
+    bool doOnce = false;
+    [SerializeField]
     List<GameObject> pillarEntities;
 
     [SerializeField]
     UnityEvent OnAllPillarsTriggered;
     int numOfTriggeredPillars;
+    bool done = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,9 +30,13 @@ public class RitualCircle : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (doOnce && done) {
+            return;
+        }
         if (other.tag == "Player") {
             if (numOfTriggeredPillars >= pillarEntities.Count ) {
                 OnAllPillarsTriggered.Invoke();
+                done = true;
             }
         }
     }
