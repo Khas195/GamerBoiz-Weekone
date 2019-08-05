@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 2DMovement
   m_EditorClassIdentifier: 
   walkSpeed: 5
-  runSpeed: 7
+  runSpeed: 1
   jumpForce: 50

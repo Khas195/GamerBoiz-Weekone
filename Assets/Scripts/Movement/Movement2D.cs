@@ -10,6 +10,9 @@ public class Movement2D : IMovement
     bool inMotion = false;
     [SerializeField]
     float smoothAcceleration = 0;
+
+    float cachedSide;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +44,13 @@ public class Movement2D : IMovement
         vel.y = forward * currentSpeed * Time.deltaTime;
         vel.x = side * currentSpeed * Time.deltaTime;
         body2D.MovePosition(body2D.transform.position + vel);
+        cachedSide = side;
+    }
+    public bool IsInMotion() {
+        return inMotion;
+    }
+    public float GetSideInput(){
+        return cachedSide;
     }
     public float GetCurrentSpeed()
     {
