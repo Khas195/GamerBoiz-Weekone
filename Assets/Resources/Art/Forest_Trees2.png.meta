@@ -1,7 +1,22 @@
 fileFormatVersion: 2
-guid: 5ae67bfe815a81a47bfa9e1f235d93ac
+guid: 26b00ff1c3e1a44f08bf871c7cf5ff7d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 152455760304890064
+    second: Forest_Trees2_0
+  - first:
+      213: -2422296058149913197
+    second: Forest_Trees2_1
+  - first:
+      213: -949370520177595173
+    second: Forest_Trees2_2
+  - first:
+      213: -4298792261897407941
+    second: Forest_Trees2_3
+  - first:
+      213: -3897897998699034246
+    second: Forest_Trees2_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -20,7 +35,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -32,21 +47,21 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 2911, y: 0, z: 0, w: 2849}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -84,7 +99,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Forest_Trees2_0
+      rect:
+        serializedVersion: 2
+        x: 5487
+        y: 2656
+        width: 5
+        height: 5
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381250276d012442baef794f76453543
+      internalID: 152455760304890064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_Trees2_1
+      rect:
+        serializedVersion: 2
+        x: 5487
+        y: 2656
+        width: 5
+        height: 5
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f41612bd285d4b5c8f0319a57ef7cd1
+      internalID: -2422296058149913197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_Trees2_4
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 0
+        width: 2604
+        height: 2655
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a68bd6b19a840ebad14dcb8dd39986
+      internalID: -3897897998699034246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
