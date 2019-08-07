@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 5ae67bfe815a81a47bfa9e1f235d93ac
+=======
+guid: 560a759e2f63a4d9c94c01db95b43b95
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -60,6 +64,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+<<<<<<< Updated upstream
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -88,6 +93,12 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
+=======
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
