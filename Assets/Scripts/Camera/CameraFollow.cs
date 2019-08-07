@@ -16,23 +16,22 @@ public class CameraFollow : MonoBehaviour
     [Tooltip("Each frame the camera move x percentage closer to the target")]
     float followPercentage = 0.02f;
 
+
     // Start is called before the first frame update
     void Start()
     {
         encapsolatedTarget.Add(character);
-
     }
 
     void FixedUpdate()
     {
         var targetPos = GetCenterPosition(encapsolatedTarget);
-
         var hostPos = host.position;
+
         hostPos.x = Mathf.Lerp(hostPos.x, targetPos.x, followPercentage);
         hostPos.y = Mathf.Lerp(hostPos.y, targetPos.y, followPercentage);
+
         host.transform.position = hostPos;
-
-
     }
 
     public void SetFollowPercentage(float value)
