@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 20646b46c80c34e6d9c132a4dccdcd82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8592445775414748003
+    second: Ocean_cliff1
+  - first:
+      213: -4730556265495493426
+    second: Ocean_cliff2
+  - first:
+      213: 4251075402784784654
+    second: Ocean_clifftop1
+  - first:
+      213: 7133172539027938431
+    second: Ocean_clifftop2
+  - first:
+      213: 6063210463011172626
+    second: Ocean_cliff3
+  - first:
+      213: -2109309122181304832
+    second: Ocean_turtle
+  - first:
+      213: -5506312006011240706
+    second: Ocean_shrine
+  - first:
+      213: -202007379981829205
+    second: Ocean_merdude1
+  - first:
+      213: -8163837378235612023
+    second: Ocean_merdude2
+  - first:
+      213: -2438175516990114840
+    second: Ocean_merdude3
+  - first:
+      213: -5951508926989142922
+    second: Ocean_merdude4
+  - first:
+      213: 6648929056680932757
+    second: Ocean_merdude5
+  - first:
+      213: 8791998490210202874
+    second: Ocean_merdude6
+  - first:
+      213: 8097018330454193655
+    second: Ocean_canoe1
+  - first:
+      213: -7630743246909283460
+    second: Ocean_canoe2
+  - first:
+      213: 7415501739355137868
+    second: Ocean_canoe3
+  - first:
+      213: 1743072713990606743
+    second: Ocean_canoe4
+  - first:
+      213: 4723999055291877916
+    second: Ocean_hut1
+  - first:
+      213: -950031621374885567
+    second: Ocean_hut2
+  - first:
+      213: -8798897546612221872
+    second: Ocean_hut3
+  - first:
+      213: -576765274561579084
+    second: Ocean_hut4
+  - first:
+      213: 4775088065643474513
+    second: Ocean_hut5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ocean_cliff1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1358
+        width: 1634
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f23d511df22f4d61884d50451c80312
+      internalID: -8592445775414748003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_cliff2
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 521
+        width: 923
+        height: 659
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b09028da4524173b344b9ca05af384
+      internalID: -4730556265495493426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_clifftop1
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 978
+        width: 397
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8759868e70f4b4f8fbb32787ade327d6
+      internalID: 4251075402784784654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_clifftop2
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 52
+        width: 550
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93a504fd59224a17b8eac6b1eee9942
+      internalID: 7133172539027938431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_cliff3
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 164
+        width: 169
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65db08854cea4eb4b86c5461caab9a3
+      internalID: 6063210463011172626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_turtle
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 44
+        width: 1074
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97306b6a69d9b4d1fab7468ab43a5edd
+      internalID: -2109309122181304832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_shrine
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 678
+        width: 87
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0252ecadd09274f9a8f7c703d8a7c04a
+      internalID: -5506312006011240706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_merdude1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 708
+        width: 264
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e3e10d449b483dbe8ed9177a24f8b
+      internalID: -202007379981829205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_merdude2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 834
+        width: 132
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6baa88fe231d4c24a6b06f6f09ab1c6
+      internalID: -8163837378235612023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_merdude3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 983
+        width: 138
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb75054fbaae34e3d83d4b8f62c14bf6
+      internalID: -2438175516990114840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_merdude4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 975
+        width: 129
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62966b8dc4a21439389919bd8aaec37a
+      internalID: -5951508926989142922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_merdude5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 989
+        width: 117
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e5cccc09ce44cabb6eb2c0abf96001
+      internalID: 6648929056680932757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_merdude6
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 840
+        width: 239
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39193519f08ad462e8a6c2997fc4e8ca
+      internalID: 8791998490210202874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_canoe1
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1080
+        width: 134
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a0a5a3d93a04362a4dc85fcd8d378f
+      internalID: 8097018330454193655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_canoe2
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 898
+        width: 151
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9461ca58f1434cffbdcd72fcc7eb40c
+      internalID: -7630743246909283460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_canoe3
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 902
+        width: 93
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aeaeeaa6cf0405d96aa845ae1891dc
+      internalID: 7415501739355137868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_canoe4
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 919
+        width: 136
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8d8e875667c4b9f8bd776f02b262df
+      internalID: 1743072713990606743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_hut1
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1287
+        width: 478
+        height: 364
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c261700c45b8b4d698f69f42a5af007d
+      internalID: 4723999055291877916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_hut2
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1046
+        width: 380
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8401eb819c5d448a0a6e978f95566837
+      internalID: -950031621374885567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_hut3
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 517
+        width: 430
+        height: 365
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7a8a5e7e0a04855a332795faf89603
+      internalID: -8798897546612221872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_hut4
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 122
+        width: 490
+        height: 385
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c828ede0facf46248c19cd4b72f250a
+      internalID: -576765274561579084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_hut5
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 976
+        width: 193
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841a8d554c2694874a9ad8625eba6520
+      internalID: 4775088065643474513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
