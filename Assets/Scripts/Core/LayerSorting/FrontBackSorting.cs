@@ -2,32 +2,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class FrontBackSorting : MonoBehaviour
+public class FrontBackSorting : IFrontBackSorting
 {
-    [SerializeField]
-    Transform host;
-    [SerializeField]
-    bool useSelfAsHost;
     // Start is called before the first frame update
     void Start()
     {
-        if (useSelfAsHost) {
+        if (useSelfAsHost)
+        {
             host = this.transform;
         }
     }
-
-    // Update is called once per frame
-    void Update()
+    public override bool IsAboveCharacter(Vector3 characterPos, Vector3 hostPos)
     {
-    }
-    public Vector3 GetHostPosition()
-    {
-        return host.position;
+        return characterPos.y > hostPos.y;
     }
 
-    public void SetHostPosition(Vector3 pos)
+    public override bool IsBelowCharacter(Vector3 characterPos, Vector3 hostPos)
     {
-        host.transform.position = pos;
+        return characterPos.y < hostPos.y;
     }
 }

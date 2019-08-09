@@ -5,13 +5,13 @@ using UnityEngine;
 public class FrontBackSortingManager : MonoBehaviour
 {
     [SerializeField]
-    List<FrontBackSorting> sortingObjects;
+    List<IFrontBackSorting> sortingObjects;
     [SerializeField]
     Transform character;
     // Start is called before the first frame update
     void Start()
     {
-        var sortingList = GameObject.FindObjectsOfType<FrontBackSorting>();
+        var sortingList = GameObject.FindObjectsOfType<IFrontBackSorting>();
         foreach (var sortingTarget in sortingList)
         {
             sortingObjects.Add(sortingTarget);
@@ -23,12 +23,13 @@ public class FrontBackSortingManager : MonoBehaviour
     {
         foreach (var target in sortingObjects)
         {
-            var pos = target.GetHostPosition();
-            if (character.position.y > pos.y)
+            var pos = target.HostPosition();
+
+            if (target.IsAboveCharacter(character.position, pos))
             {
                 pos.z = character.position.z - 1;
             }
-            else if (character.position.y < pos.y)
+            else if (target.IsBelowCharacter(character.position, pos))
             {
                 pos.z = character.position.z + 1;
             }
@@ -39,4 +40,5 @@ public class FrontBackSortingManager : MonoBehaviour
             target.SetHostPosition(pos);
         }
     }
+
 }
